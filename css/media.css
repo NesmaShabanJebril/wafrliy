@@ -1,0 +1,105 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1201px) {
+   h2 {
+    font-size: 39px;
+}
+   
+.container {
+    max-width: 1240px!important;}
+    
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to 1280px
+*/
+
+
+
+@media (min-width: 990px) and (max-width: 1200px) {
+
+    
+    
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 989px) {
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+@media (min-width: 571px) and (max-width: 767px) { 
+    .pad-top{
+    padding-top: 25vh !important;
+}
+    .carousel-item {
+        text-align: center;
+    }
+    .logo{
+        width: 100px
+    }
+    .bg-home ,.en .bg-home{
+         background-image: url(../img/menu-bg-mob-ar.png); 
+           padding-top: 0px!important;
+          background-position: left top;
+    }
+    .w-60{
+    width: 90%;
+}
+.app{
+    width: 170px;
+    margin: 10px;
+}
+        .partners div{
+    margin-bottom:0px;
+}
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+@media (min-width: 0px) and (max-width: 570px) {
+ .pad-top{
+    padding-top: 5vh !important;
+}
+     .logo{
+        width: 100px
+    }
+     .carousel-item {
+        text-align: center;
+    }
+     .bg-home , .en .bg-home{
+         background-image: url(../img/menu-bg-mob-ar.png); 
+         padding-top: 0px!important;
+           background-position: left top;
+    }
+    .w-60{
+    width: 100%;
+}
+.app{
+    width: 120px;
+    margin: 5px;
+}
+    .partners div{
+    margin-bottom:0px;
+}
+    footer .container *  {
+        padding: 3px!important;
+        font-size: 12px!important;
+    }
+    footer li{
+        border-right: 1px solid gray;
+    }
+    .arabic  footer li{
+        border-right: none;
+        border-left: 1px solid gray;
+    }
+}

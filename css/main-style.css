@@ -1,0 +1,235 @@
+
+@import url("flat-jooza-regular.ttf");
+@import url(bader_al-gordabia-2.ttf);
+@import url(AVGARDM.TTF);
+@import url(din-next-lt-w23-regular-1.ttf);
+@font-face{
+    font-family:dinnextltw23;
+  src: url(din-next-lt-w23-regular-1.ttf);
+    font-style:normal;
+}
+@font-face{
+    font-family:AVGARDM;
+  src: url("AVGARDM.TTF"); 
+    font-style:normal;
+    
+    
+}
+body{
+    text-transform: capitalize;
+    font-size: 20px;
+        color: #626262;
+    font-family:'dinnextltw23';
+}
+
+.arabic {
+    direction: rtl;
+    text-align: right;
+
+}
+
+
+.row ,.mr-0{
+    margin: 0px!important;
+}
+.pad-0 ,.container-fluid{
+    padding: 0px!important;
+}
+.relative{
+    position: relative!important;
+}
+.btn-main ,.bg-main{
+    background: #fe5b20!important;
+}
+.bg-second{
+    background: orange!important;
+}
+.bg-w{
+    background-color:#fff!important;
+}
+.mr-bottom{
+    margin-bottom: 20px!important
+}
+/* start nav */
+.bg-home{
+    background-image: url(../img/menu-bg-ar.png); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left top;
+    padding-top: 150px!important;
+}
+.en .bg-home{
+     background-image: url(../img/menu-bg.png); 
+    background-position: right top;
+}
+.pad-top{
+   padding-top: 150px!important;   
+}
+.logo{
+    width: 150px;
+}
+.bg-b{
+    background-color: rgba(0,0,0,.7);
+}
+.c-w{
+    color:#fff!important;
+}
+.main-color{
+    color:#fe5b20; 
+}
+.pad-15{
+    padding: 15px!important;
+}
+a{
+    color: #626262;
+}
+nav li{
+    position: relative;
+     border-radius: 20px;
+}
+ 
+ nav li a::before {
+    content: "";
+    height: 100%;
+    width:0%;
+     border-radius: 20px;
+    background-color: #fe5b20;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .9s;
+z-index: -1;}
+ nav li:hover a::before {
+    width: 100%;
+}
+nav li:hover a{
+    color: #fff!important;
+}
+.mobile{
+    margin: auto;
+    width: 270px;
+    height: 540px;
+    background-image: url(../img/phone.png);
+    padding:0px 15px;
+    background-size: cover;
+}
+.fixed-top{
+    position: absolute!important;
+}
+.mobile  img{ 
+  height: 540px; 
+    border-radius: 50px;
+}
+  .sidbar{
+            position: absolute;
+            width:300px;
+            background:#fff;;
+            top: 100%;
+     
+            display: none;
+            z-index: 99999;
+            color: #fff;
+          background: #626262;
+    padding: 10px 0 10px 0;
+              transition: .3;
+      text-align: left;
+        }
+.en .sidbar{
+    right: 0;
+}
+.arabic .sidbar{
+    left: 0;
+}
+  .open-sidbar{
+            display: block;
+        }
+
+.bg-dark, .sidbar a{
+      background: #626262!important;
+    color: #fff!important;
+    border-radius: 1px;
+}
+.eng{
+    border-radius: 30px;
+    padding: 3px 12px;
+    margin-left: 3px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.carousel-indicators li {
+background: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background: #fe5b20!important;
+}
+.w-60{
+    width: 60%;
+}
+.app{
+    width: 200px;
+    margin: 20px;
+}
+p, footer a{
+    font-size: 16px;
+}
+.border-botttom{
+    border-bottom: 2px solid #fe5b20!important;
+   
+}
+.clear{
+   clear: both!important;  
+}
+.feature img{
+    width: 80px;
+     margin: 20px 10px;
+}
+.feature h3{
+    line-height: 80px;
+    margin: 20px 10px;
+}
+.bg-lightt{
+        background: #f2e6cd!important;
+
+}
+input {
+   
+    width: 100%;
+    border: #999 solid 1px;
+    outline: 0;
+    padding: 0;
+    background: #FFF;
+    height: 60px;
+    padding: 0 20px 0 20px;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+} 
+textarea{
+   
+    width: 100%;
+    border: #999 solid 1px;
+    outline: 0;
+    padding: 0;
+    background: #FFF;
+    padding: 0 20px 0 20px;
+    line-height: 50px;
+    border-radius: 30px;
+      margin-bottom: 20px;
+} 
+form button{
+        padding: 10px 40px!important;
+    border-radius: 30px!important;
+     margin-bottom: 20px;
+}
+.nav-link {
+    padding: .7rem 1.2rem!important;
+}
+.partners div{
+    border: 1px dotted #000;
+    padding: 15px!important;
+    margin-bottom: 10px;
+}
